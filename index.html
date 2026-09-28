@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Ary's Portofolio</title>
+        <!--Baris di bawah menghubungkan ke file CSS-->
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+<body>
+<!--1. bagian Navigasi-->
+<nav>
+    <div class="nav-right">
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#graduate-profile">Academic</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+    </ul>
+    </div>
+</nav>
+
+<!--2. Section Hero-->
+<section id="home">
+    <div class="intro-text">
+        <h4 style="color: #e6101b;">Hello Folks!</h4>
+        <h1>I am Ary Ikhsan Syahputra</h1>
+            <h3>Freshman in Major Computer Science</h3>
+            <p style="text-align: justify;">I graduated from SMK Negeri 9 Medan, majoring in Computer and Network Engineering. Currently, I am a freshman at Universitas Negeri Medan, eager to learn and deepen my skills in network engineering.</p>
+           <a href="https://www.instagram.com/aveerry._?stkn=Yzd3ZWRqZ3gxNzdz" target="_blank" class="social-link" aria-label="Kunjungi Instagram Ary">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <circle cx="17.5" cy="6.5" r="1"></circle>
+                </svg>
+           </a>
+    </div>
+    <div class="intro-image">
+            <!-- Tempat untuk foto profil Anda -->
+            <img src="assets/foto-ary.jpeg" alt="Foto Ary">
+    </div>
+</section>
+
+ <!-- 3. Bagian What Do I Offer (Layanan) -->
+ <section id="services">
+    <h2 class="section-title">Skills</h2>
+    <div class="offer-container">
+        <div class="offer-box">
+            <div class="offer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="5" r="2"></circle>
+                    <circle cx="5" cy="18" r="2"></circle>
+                    <circle cx="19" cy="18" r="2"></circle>
+                    <path d="M12 7v5M12 12 5 16M12 12l7 4"></path>
+                </svg>
+            </div>
+            <h3>Cisco Packet Tracer</h3>
+            <p>Simulasi dan perancangan jaringan menggunakan Cisco Packet Tracer.</p>
+        </div>
+        <div class="offer-box">
+            <div class="offer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="3" y="4" width="18" height="14" rx="2"></rect>
+                    <path d="m7 9 3 3-3 3M12 15h5M6 21h12"></path>
+                </svg>
+            </div>
+            <h3>Basic Linux Network Configuration</h3>
+            <p>Konfigurasi jaringan dasar pada sistem operasi Linux.</p>
+        </div>
+        <div class="offer-box">
+            <div class="offer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M4 10h16l2 3v5H2v-5l2-3Z"></path>
+                    <path d="M8 10V7h8v3M7 18v2M17 18v2"></path>
+                    <circle cx="12" cy="14" r="2.5"></circle>
+                </svg>
+            </div>
+            <h3>CCTV Installing</h3>
+            <p>Pemasangan dan penataan perangkat CCTV untuk kebutuhan keamanan.</p>
+        </div>
+    </div>
+ </section>
+
+ <!-- 4. Profil Lulusan -->
+ <section id="graduate-profile">
+    <h2 class="section-title">Academic</h2>
+    <article class="graduate-card">
+        <div class="graduate-text">
+            <h3 class="graduate-school">SMK Negeri 9 Medan</h3>
+            <p class="graduate-major">Teknik Komputer dan Jaringan</p>
+            <p class="graduate-period">2023 - 2026</p>
+        </div>
+        <div class="graduate-image">
+            <img src="assets/logo-smk.webp" alt="Foto profil lulusan">
+        </div>
+    </article>
+ </section>
+
+    <!-- 4. Bagian Hobby -->
+    <section id="hobby">
+        <h2 class="section-title">My Hobbies</h2>
+        
+        <div class="hobby-container">
+            
+            <!-- Kotak Hobi 1 -->
+            <div class="hobby-card">
+                <div class="hobby-image">
+                    <!-- Ganti 'gambar-hobi1.jpg' dengan nama file gambar Anda nanti -->
+                    <img src="assets/muaythai.webp" alt="Hobi 1">
+                </div>
+                <div class="hobby-text">
+                    <h3>Muay Thai</h3>
+                    <p>Saya hanya suka bagian sesi latihan dan tidak berniat berfokus pada tanding amatir.</p>
+                </div>
+            </div>
+
+            <!-- Kotak Hobi 2 -->
+            <div class="hobby-card">
+                <div class="hobby-image">
+                    <img src="assets/game.webp" alt="Hobi 2">
+                </div>
+                <div class="hobby-text">
+                    <h3>Bermain Game</h3>
+                    <p>Saya suka bermain game petualangan dan aksi.</p>
+                </div>
+            </div>
+
+            <!-- Kotak Hobi 3 -->
+            <div class="hobby-card">
+                <div class="hobby-image">
+                    <img src="assets/baca.jpg" alt="Hobi 3">
+                </div>
+                <div class="hobby-text">
+                    <h3>Membaca Komik atau Novel</h3>
+                    <p>Hiburan alternatif yang lebih mudah dilakukan</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
